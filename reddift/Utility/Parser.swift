@@ -12,7 +12,7 @@ import Foundation
 Uitility class.
 Parser class parses JSON and generates objects from it.
 */
-class Parser: NSObject {
+public class Parser: NSObject {
 	/**
 	Parse thing object in JSON.
 	This method dispatches element of JSON to eithr methods to extract classes derived from Thing class.
