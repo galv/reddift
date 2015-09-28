@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Keychain
+import KeychainAccess
 
 public let OAuth2TokenRepositoryDidSaveToken = "OAuth2TokenRepositoryDidSaveToken"
 
