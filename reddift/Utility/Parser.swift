@@ -17,7 +17,7 @@ public class Parser: NSObject {
 	Parse thing object in JSON.
 	This method dispatches element of JSON to eithr methods to extract classes derived from Thing class.
 	*/
-    class func parseThing(json:JSONDictionary) -> Any? {
+    public class func parseThing(json:JSONDictionary) -> Any? {
         if let data = json["data"] as? JSONDictionary, kind = json["kind"] as? String {
             switch(kind) {
             case "t1":
